@@ -1,0 +1,15 @@
+[package]
+name = "research-grant-funding-using-smart-contracts"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ MyModule = "0x2b1749a805a7bc6b96dfce5bf4be7a57c9c3460f5ca8a26f7db01a96f6c18327"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
